@@ -1,0 +1,116 @@
+[
+  {
+    "productId": 1,
+    "productName": "Amazulu FC ",
+    "discount" : 0.15,
+    "description": "Amazulu Home Team Jersey.",
+    "price": 699.00,
+    "starRating": 3.2,
+    "imageUrl": "assets/images/Amazulu Home.jpg"
+  },
+  {
+    "productId": 2,
+    "productName": "Arsenal Home",
+    "discount": 0.1,
+    "description": "Arsenal Home Team Jersey",
+    "price": 1000.00,
+    "starRating": 4.2,
+    "imageUrl": "assets/images/Arsenal Home.jpg"
+  },
+  {
+    "productId": 5,
+    "productName": "Black Leopards",
+    "discount": 0.18,
+    "description": "Black Leopards Home",
+    "price": 649.00,
+    "starRating": 4.8,
+    "imageUrl": "assets/images/Black Leopards Home.jpg"
+  },
+  {
+    "productId": 8,
+    "productName": "Bloemfointein Celtic",
+    "discount": 0.19,
+    "description": "Bloemfointeing Celtic Home",
+    "price": 699.00,
+    "starRating": 3.7,
+    "imageUrl": "assets/images/Bloemfointein Celtic Home.jpg"
+  },
+  {
+    "productId": 10,
+    "productName": "Borrossia Dortmund",
+    "discount": 0.02,
+    "description": "Borrossia Dortmund Home",
+    "price": 1000.00,
+    "starRating": 2,
+    "imageUrl": "assets/images/Borrossia Dortmund Away.jpg"
+  },
+  {
+    "productId": 11,
+    "productName": "Cape Town City",
+    "discount": 0.0,
+    "description": "Cape Town City Away",
+    "price": 649.00,
+    "starRating": 2.5,
+    "imageUrl": "assets/images/Cape Town City FC Away.jpg"
+  }
+,
+  {
+    "productId": 12,
+    "productName": "Chippa United",
+    "discount": 0.05,
+    "description": "Chippa United Home",
+    "price": 699,
+    "starRating": 3,
+    "imageUrl": "assets/images/Chippa United Home.jpg"
+  },
+
+  {
+    "productId": 13,
+    "productName": "Everton FC",
+    "discount": 0.0,
+    "description": "Everton FC",
+    "price": 699.99,
+    "starRating": 4,
+    "imageUrl": "assets/images/Everton FC.jpg"
+  }
+  ,
+
+  {
+    "productId": 14,
+    "productName": "Mamelodi Sundowns Home",
+    "discount": 0.07,
+    "description": "Mamelodi Sundowns Home",
+    "price": 800.00,
+    "starRating": 3.9,
+    "imageUrl": "assets/images/Mamelodi Home.jpg"
+  },
+
+  {
+    "productId": 15,
+    "productName": "Mamelodi Sundowns",
+    "discount": 0.1,
+    "description": "Mamelodi Sundowns Away",
+    "price": 800.00,
+    "starRating": 5,
+    "imageUrl": "assets/images/Mamelodi Sundowns Away.jpg"
+  },
+  {
+    "productId": 16,
+    "productName": "Manchester City",
+    "discount": 0.5,
+    "description": "Manchester City Home",
+    "price": 1200.00,
+    "starRating": 5,
+    "imageUrl": "assets/images/Manchester City.jpg"
+  },
+  {
+    "productId": 17,
+    "productName": "Manchester City Away",
+    "discount": 0.3,
+    "releaseDate": "October 15, 2018",
+    "description": "Manchester City Away",
+    "price": 1000.00,
+    "starRating": 5,
+    "imageUrl": "assets/images/Manchester City  Away.jpg"
+  }
+]

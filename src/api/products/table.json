@@ -1,0 +1,26 @@
+[
+    {
+       "Id" : 1 ,
+       "name" : "Thendo" ,
+       "surname" : "Mudau"
+    },
+
+    {
+        "Id" : 2 ,
+        "name" : "Pfanani" ,
+        "surname" : "Mavhusha"
+     },
+
+     {
+        "Id" : 3 ,
+        "name" : "Orikonisa" ,
+        "surname" : "Mudau"
+     }
+
+
+
+
+
+
+
+]

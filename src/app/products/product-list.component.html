@@ -1,0 +1,88 @@
+<div class='card'>
+
+  <div class='card-header'>
+    {{pageTitle}}
+  </div>
+  
+  <div class='card-body'>
+
+    <div class='row'>
+      
+      <div class='col-md-4'>
+        <input class="form-control" placeholder="Search Item" type='text'
+        [(ngModel)]='listFilter' />
+      </div>
+      <span>
+        <div>
+
+          
+        </div>
+
+        
+      </span>
+    </div>
+    
+
+    <div class="row">
+      <div class='col-md-6'>
+        <h4>Filtered by: {{listFilter}} </h4>
+      </div>
+    </div>
+
+    <div class="form-row align-items-center">
+      <div class="col-auto my-1">
+        <label class="mr-sm-2" for="inlineFormCustomSelect">Sort By :</label>
+        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+          <option selected>Choose...</option>
+          <option value="1">Price Asc</option>
+          <option value="2">Price Desc</option>
+          <option value="3">Name Asc</option>
+          <option value="4">Name Desc</option>
+        </select>
+      </div>
+  
+    <div class='table-responsive'>
+      <table class='table table-bordered table-dark'
+             *ngIf='products && products.length>0'>
+        <thead>
+          <tr>
+            <th>
+              
+              <button class='btn btn-primary'
+              (click)= 'toggleImage()'>
+                {{showImage?'Hide':'Show'}} Image
+              </button>
+            </th>
+            <th >Product</th>
+            <th>Price</th>
+            <th>Discount</th>
+            <th>Final Price</th>
+            <th>5 Star Rating</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor='let product of filteredProducts'>
+            <td>
+              <img *ngIf='showImage'
+                  [src]='product.imageUrl'
+                   [title]='product.productName | uppercase'
+                   width='200'
+                   height='200'>
+            </td>
+            <td>
+              <a [routerLink]="['/products',product.productId]">{{ product.productName }}</a> 
+            </td>
+            <td>{{ product.price  | currency:'ZAR' : 'symbol-narrow':'1.2-2' }}</td>
+            <td>{{ product.discount|percent}}</td>
+            <td>{{ (product.price - (product.discount*product.price))| currency:'ZAR' : 'symbol-narrow':'1.2-2'}}</td>
+           
+            <td>
+              <pm-star [rating]='product.starRating'
+              (ratingClicked)='onRatingClicked($event)'></pm-star>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
